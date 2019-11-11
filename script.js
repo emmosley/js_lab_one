@@ -18,12 +18,12 @@ if (play === 'yes') {
         grantLoses++;
         numberOfWins++;
         grantHP = 10
-        console.log(`Grant has been defeated and ${username} has ${numberOfWins} wins`);
+        console.log(`Grant the Mighty Chicken has been defeated and ${username} has ${numberOfWins} wins`);
       } else if (grantLoses < 3 && playerHP === 0) {
-        console.log("Grant wins the battle!")
+        console.log("Grant the Mighty Chicken wins the battle!")
       };
 
     if (grantLoses === 3 && playerHP >= 0) {
-        console.log(`${username} wins the battle`)
+        console.log(`${username} wins the battle!`)
      };
     }}
